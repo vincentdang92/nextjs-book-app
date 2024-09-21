@@ -28,7 +28,7 @@ export default function Header() {
         style={rightContainerStyle}
         >
             <Link href="/profile" className="mr-1" style={avatarLinkStyle} >
-                <motion.img src="./public/avatar.png" alt="avatar" initial={{ opacity:0, x:100 }}
+                <motion.img src="./avatar.png" alt="avatar" initial={{ opacity:0, x:100 }}
                 animate={{ opacity:1, x:0 }}
                 style={avatarStyle}
                 className="rounded"
